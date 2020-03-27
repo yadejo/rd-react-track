@@ -2,6 +2,9 @@
 React track will consist of 1 full day and X evening sessions.
 ## Full day 
 
+### Prerequisites
+// Tools/voorkennis
+
 ### Goal:
 Introduce complete newbies to the concepts of React.
 
@@ -41,7 +44,7 @@ Functionalities
 3. Give a custom name to the catched pokemon's ()
 4. mouse is a pokebal
 5. Pokemon's move in random directions
-- 
+6. 
 
 
 ## Evening 2: Unit Testing React applications
