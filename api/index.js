@@ -1,14 +1,20 @@
 const express = require('express')
-const fs = require('fs')
+const  data = require('./pokemon.json')
 
 const port = 1337
 
 const app = express()
 
-let data = require('./pokemon.json')
 
-
-
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*')
+    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization')
+    if (req.method === 'OPTIONS') {
+        res.header('Access-Control-Allow-Methods', 'PUT, POST, PATCH, DELETE, GET')
+        return res.status(200)
+    }
+    next()
+})
 
 app.get('/pokemon', (req, res, next)=>{
     res.json(data.pokemon)
