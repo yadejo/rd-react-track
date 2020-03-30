@@ -1,5 +1,5 @@
 const express = require('express')
-const  data = require('./pokemon.json')
+const data = require('./pokemon.json')
 
 const port = 1337
 
@@ -16,12 +16,16 @@ app.use((req, res, next) => {
     next()
 })
 
-app.get('/pokemon', (req, res, next)=>{
+app.get('/pokemon', (req, res, next) => {
     res.json(data.pokemon)
 })
 
-app.use('/sprites',express.static('sprites'))
+app.get('/pokemon/:id', (req, res, next) => {
+    res.json(data.pokemon.find(p => p.id == req.params.id))
+})
 
-app.listen(port, ()=>{
+app.use('/sprites', express.static('sprites'))
+
+app.listen(port, () => {
     console.log('listening')
 })
