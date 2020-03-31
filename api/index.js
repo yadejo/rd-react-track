@@ -17,11 +17,15 @@ app.use((req, res, next) => {
 })
 
 app.get('/pokemon', (req, res, next) => {
-    res.json(data.pokemon)
+    pokemon = data.pokemon.map(({ id, url, sprite }) => { return { id, url, sprite } })
+    if (pokemon) return res.json(pokemon)
+    return res.sendStatus(404)
 })
 
 app.get('/pokemon/:id', (req, res, next) => {
-    res.json(data.pokemon.find(p => p.id == req.params.id))
+    pokemon = data.pokemon.find(p => p.id == req.params.id)
+    if (pokemon) return res.json(pokemon)
+    return res.sendStatus(404)
 })
 
 app.use('/sprites', express.static('sprites'))

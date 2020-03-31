@@ -2,909 +2,1211 @@
   "pokemon": [
     {
       "id": 1,
-      "name": "bulbasaur",
       "url": "http://localhost:1337/pokemon/1/",
-      "sprite": "http://localhost:1337/sprites/1.png"
+      "sprite": "http://localhost:1337/sprites/1.png",
+      "info": {
+        "name": "bulbasaur"
+      }
     },
     {
       "id": 2,
-      "name": "ivysaur",
       "url": "http://localhost:1337/pokemon/2/",
-      "sprite": "http://localhost:1337/sprites/2.png"
+      "sprite": "http://localhost:1337/sprites/2.png",
+      "info": {
+        "name": "ivysaur"
+      }
     },
     {
       "id": 3,
-      "name": "venusaur",
       "url": "http://localhost:1337/pokemon/3/",
-      "sprite": "http://localhost:1337/sprites/3.png"
+      "sprite": "http://localhost:1337/sprites/3.png",
+      "info": {
+        "name": "venusaur"
+      }
     },
     {
       "id": 4,
-      "name": "charmander",
       "url": "http://localhost:1337/pokemon/4/",
-      "sprite": "http://localhost:1337/sprites/4.png"
+      "sprite": "http://localhost:1337/sprites/4.png",
+      "info": {
+        "name": "charmander"
+      }
     },
     {
       "id": 5,
-      "name": "charmeleon",
       "url": "http://localhost:1337/pokemon/5/",
-      "sprite": "http://localhost:1337/sprites/5.png"
+      "sprite": "http://localhost:1337/sprites/5.png",
+      "info": {
+        "name": "charmeleon"
+      }
     },
     {
       "id": 6,
-      "name": "charizard",
       "url": "http://localhost:1337/pokemon/6/",
-      "sprite": "http://localhost:1337/sprites/6.png"
+      "sprite": "http://localhost:1337/sprites/6.png",
+      "info": {
+        "name": "charizard"
+      }
     },
     {
       "id": 7,
-      "name": "squirtle",
       "url": "http://localhost:1337/pokemon/7/",
-      "sprite": "http://localhost:1337/sprites/7.png"
+      "sprite": "http://localhost:1337/sprites/7.png",
+      "info": {
+        "name": "squirtle"
+      }
     },
     {
       "id": 8,
-      "name": "wartortle",
       "url": "http://localhost:1337/pokemon/8/",
-      "sprite": "http://localhost:1337/sprites/8.png"
+      "sprite": "http://localhost:1337/sprites/8.png",
+      "info": {
+        "name": "wartortle"
+      }
     },
     {
       "id": 9,
-      "name": "blastoise",
       "url": "http://localhost:1337/pokemon/9/",
-      "sprite": "http://localhost:1337/sprites/9.png"
+      "sprite": "http://localhost:1337/sprites/9.png",
+      "info": {
+        "name": "blastoise"
+      }
     },
     {
       "id": 10,
-      "name": "caterpie",
       "url": "http://localhost:1337/pokemon/10/",
-      "sprite": "http://localhost:1337/sprites/10.png"
+      "sprite": "http://localhost:1337/sprites/10.png",
+      "info": {
+        "name": "caterpie"
+      }
     },
     {
       "id": 11,
-      "name": "metapod",
       "url": "http://localhost:1337/pokemon/11/",
-      "sprite": "http://localhost:1337/sprites/11.png"
+      "sprite": "http://localhost:1337/sprites/11.png",
+      "info": {
+        "name": "metapod"
+      }
     },
     {
       "id": 12,
-      "name": "butterfree",
       "url": "http://localhost:1337/pokemon/12/",
-      "sprite": "http://localhost:1337/sprites/12.png"
+      "sprite": "http://localhost:1337/sprites/12.png",
+      "info": {
+        "name": "butterfree"
+      }
     },
     {
       "id": 13,
-      "name": "weedle",
       "url": "http://localhost:1337/pokemon/13/",
-      "sprite": "http://localhost:1337/sprites/13.png"
+      "sprite": "http://localhost:1337/sprites/13.png",
+      "info": {
+        "name": "weedle"
+      }
     },
     {
       "id": 14,
-      "name": "kakuna",
       "url": "http://localhost:1337/pokemon/14/",
-      "sprite": "http://localhost:1337/sprites/14.png"
+      "sprite": "http://localhost:1337/sprites/14.png",
+      "info": {
+        "name": "kakuna"
+      }
     },
     {
       "id": 15,
-      "name": "beedrill",
       "url": "http://localhost:1337/pokemon/15/",
-      "sprite": "http://localhost:1337/sprites/15.png"
+      "sprite": "http://localhost:1337/sprites/15.png",
+      "info": {
+        "name": "beedrill"
+      }
     },
     {
       "id": 16,
-      "name": "pidgey",
       "url": "http://localhost:1337/pokemon/16/",
-      "sprite": "http://localhost:1337/sprites/16.png"
+      "sprite": "http://localhost:1337/sprites/16.png",
+      "info": {
+        "name": "pidgey"
+      }
     },
     {
       "id": 17,
-      "name": "pidgeotto",
       "url": "http://localhost:1337/pokemon/17/",
-      "sprite": "http://localhost:1337/sprites/17.png"
+      "sprite": "http://localhost:1337/sprites/17.png",
+      "info": {
+        "name": "pidgeotto"
+      }
     },
     {
       "id": 18,
-      "name": "pidgeot",
       "url": "http://localhost:1337/pokemon/18/",
-      "sprite": "http://localhost:1337/sprites/18.png"
+      "sprite": "http://localhost:1337/sprites/18.png",
+      "info": {
+        "name": "pidgeot"
+      }
     },
     {
       "id": 19,
-      "name": "rattata",
       "url": "http://localhost:1337/pokemon/19/",
-      "sprite": "http://localhost:1337/sprites/19.png"
+      "sprite": "http://localhost:1337/sprites/19.png",
+      "info": {
+        "name": "rattata"
+      }
     },
     {
       "id": 20,
-      "name": "raticate",
       "url": "http://localhost:1337/pokemon/20/",
-      "sprite": "http://localhost:1337/sprites/20.png"
+      "sprite": "http://localhost:1337/sprites/20.png",
+      "info": {
+        "name": "raticate"
+      }
     },
     {
       "id": 21,
-      "name": "spearow",
       "url": "http://localhost:1337/pokemon/21/",
-      "sprite": "http://localhost:1337/sprites/21.png"
+      "sprite": "http://localhost:1337/sprites/21.png",
+      "info": {
+        "name": "spearow"
+      }
     },
     {
       "id": 22,
-      "name": "fearow",
       "url": "http://localhost:1337/pokemon/22/",
-      "sprite": "http://localhost:1337/sprites/22.png"
+      "sprite": "http://localhost:1337/sprites/22.png",
+      "info": {
+        "name": "fearow"
+      }
     },
     {
       "id": 23,
-      "name": "ekans",
       "url": "http://localhost:1337/pokemon/23/",
-      "sprite": "http://localhost:1337/sprites/23.png"
+      "sprite": "http://localhost:1337/sprites/23.png",
+      "info": {
+        "name": "ekans"
+      }
     },
     {
       "id": 24,
-      "name": "arbok",
       "url": "http://localhost:1337/pokemon/24/",
-      "sprite": "http://localhost:1337/sprites/24.png"
+      "sprite": "http://localhost:1337/sprites/24.png",
+      "info": {
+        "name": "arbok"
+      }
     },
     {
       "id": 25,
-      "name": "pikachu",
       "url": "http://localhost:1337/pokemon/25/",
-      "sprite": "http://localhost:1337/sprites/25.png"
+      "sprite": "http://localhost:1337/sprites/25.png",
+      "info": {
+        "name": "pikachu"
+      }
     },
     {
       "id": 26,
-      "name": "raichu",
       "url": "http://localhost:1337/pokemon/26/",
-      "sprite": "http://localhost:1337/sprites/26.png"
+      "sprite": "http://localhost:1337/sprites/26.png",
+      "info": {
+        "name": "raichu"
+      }
     },
     {
       "id": 27,
-      "name": "sandshrew",
       "url": "http://localhost:1337/pokemon/27/",
-      "sprite": "http://localhost:1337/sprites/27.png"
+      "sprite": "http://localhost:1337/sprites/27.png",
+      "info": {
+        "name": "sandshrew"
+      }
     },
     {
       "id": 28,
-      "name": "sandslash",
       "url": "http://localhost:1337/pokemon/28/",
-      "sprite": "http://localhost:1337/sprites/28.png"
+      "sprite": "http://localhost:1337/sprites/28.png",
+      "info": {
+        "name": "sandslash"
+      }
     },
     {
       "id": 29,
-      "name": "nidoran-f",
       "url": "http://localhost:1337/pokemon/29/",
-      "sprite": "http://localhost:1337/sprites/29.png"
+      "sprite": "http://localhost:1337/sprites/29.png",
+      "info": {
+        "name": "nidoran-f"
+      }
     },
     {
       "id": 30,
-      "name": "nidorina",
       "url": "http://localhost:1337/pokemon/30/",
-      "sprite": "http://localhost:1337/sprites/30.png"
+      "sprite": "http://localhost:1337/sprites/30.png",
+      "info": {
+        "name": "nidorina"
+      }
     },
     {
       "id": 31,
-      "name": "nidoqueen",
       "url": "http://localhost:1337/pokemon/31/",
-      "sprite": "http://localhost:1337/sprites/31.png"
+      "sprite": "http://localhost:1337/sprites/31.png",
+      "info": {
+        "name": "nidoqueen"
+      }
     },
     {
       "id": 32,
-      "name": "nidoran-m",
       "url": "http://localhost:1337/pokemon/32/",
-      "sprite": "http://localhost:1337/sprites/32.png"
+      "sprite": "http://localhost:1337/sprites/32.png",
+      "info": {
+        "name": "nidoran-m"
+      }
     },
     {
       "id": 33,
-      "name": "nidorino",
       "url": "http://localhost:1337/pokemon/33/",
-      "sprite": "http://localhost:1337/sprites/33.png"
+      "sprite": "http://localhost:1337/sprites/33.png",
+      "info": {
+        "name": "nidorino"
+      }
     },
     {
       "id": 34,
-      "name": "nidoking",
       "url": "http://localhost:1337/pokemon/34/",
-      "sprite": "http://localhost:1337/sprites/34.png"
+      "sprite": "http://localhost:1337/sprites/34.png",
+      "info": {
+        "name": "nidoking"
+      }
     },
     {
       "id": 35,
-      "name": "clefairy",
       "url": "http://localhost:1337/pokemon/35/",
-      "sprite": "http://localhost:1337/sprites/35.png"
+      "sprite": "http://localhost:1337/sprites/35.png",
+      "info": {
+        "name": "clefairy"
+      }
     },
     {
       "id": 36,
-      "name": "clefable",
       "url": "http://localhost:1337/pokemon/36/",
-      "sprite": "http://localhost:1337/sprites/36.png"
+      "sprite": "http://localhost:1337/sprites/36.png",
+      "info": {
+        "name": "clefable"
+      }
     },
     {
       "id": 37,
-      "name": "vulpix",
       "url": "http://localhost:1337/pokemon/37/",
-      "sprite": "http://localhost:1337/sprites/37.png"
+      "sprite": "http://localhost:1337/sprites/37.png",
+      "info": {
+        "name": "vulpix"
+      }
     },
     {
       "id": 38,
-      "name": "ninetales",
       "url": "http://localhost:1337/pokemon/38/",
-      "sprite": "http://localhost:1337/sprites/38.png"
+      "sprite": "http://localhost:1337/sprites/38.png",
+      "info": {
+        "name": "ninetales"
+      }
     },
     {
       "id": 39,
-      "name": "jigglypuff",
       "url": "http://localhost:1337/pokemon/39/",
-      "sprite": "http://localhost:1337/sprites/39.png"
+      "sprite": "http://localhost:1337/sprites/39.png",
+      "info": {
+        "name": "jigglypuff"
+      }
     },
     {
       "id": 40,
-      "name": "wigglytuff",
       "url": "http://localhost:1337/pokemon/40/",
-      "sprite": "http://localhost:1337/sprites/40.png"
+      "sprite": "http://localhost:1337/sprites/40.png",
+      "info": {
+        "name": "wigglytuff"
+      }
     },
     {
       "id": 41,
-      "name": "zubat",
       "url": "http://localhost:1337/pokemon/41/",
-      "sprite": "http://localhost:1337/sprites/41.png"
+      "sprite": "http://localhost:1337/sprites/41.png",
+      "info": {
+        "name": "zubat"
+      }
     },
     {
       "id": 42,
-      "name": "golbat",
       "url": "http://localhost:1337/pokemon/42/",
-      "sprite": "http://localhost:1337/sprites/42.png"
+      "sprite": "http://localhost:1337/sprites/42.png",
+      "info": {
+        "name": "golbat"
+      }
     },
     {
       "id": 43,
-      "name": "oddish",
       "url": "http://localhost:1337/pokemon/43/",
-      "sprite": "http://localhost:1337/sprites/43.png"
+      "sprite": "http://localhost:1337/sprites/43.png",
+      "info": {
+        "name": "oddish"
+      }
     },
     {
       "id": 44,
-      "name": "gloom",
       "url": "http://localhost:1337/pokemon/44/",
-      "sprite": "http://localhost:1337/sprites/44.png"
+      "sprite": "http://localhost:1337/sprites/44.png",
+      "info": {
+        "name": "gloom"
+      }
     },
     {
       "id": 45,
-      "name": "vileplume",
       "url": "http://localhost:1337/pokemon/45/",
-      "sprite": "http://localhost:1337/sprites/45.png"
+      "sprite": "http://localhost:1337/sprites/45.png",
+      "info": {
+        "name": "vileplume"
+      }
     },
     {
       "id": 46,
-      "name": "paras",
       "url": "http://localhost:1337/pokemon/46/",
-      "sprite": "http://localhost:1337/sprites/46.png"
+      "sprite": "http://localhost:1337/sprites/46.png",
+      "info": {
+        "name": "paras"
+      }
     },
     {
       "id": 47,
-      "name": "parasect",
       "url": "http://localhost:1337/pokemon/47/",
-      "sprite": "http://localhost:1337/sprites/47.png"
+      "sprite": "http://localhost:1337/sprites/47.png",
+      "info": {
+        "name": "parasect"
+      }
     },
     {
       "id": 48,
-      "name": "venonat",
       "url": "http://localhost:1337/pokemon/48/",
-      "sprite": "http://localhost:1337/sprites/48.png"
+      "sprite": "http://localhost:1337/sprites/48.png",
+      "info": {
+        "name": "venonat"
+      }
     },
     {
       "id": 49,
-      "name": "venomoth",
       "url": "http://localhost:1337/pokemon/49/",
-      "sprite": "http://localhost:1337/sprites/49.png"
+      "sprite": "http://localhost:1337/sprites/49.png",
+      "info": {
+        "name": "venomoth"
+      }
     },
     {
       "id": 50,
-      "name": "diglett",
       "url": "http://localhost:1337/pokemon/50/",
-      "sprite": "http://localhost:1337/sprites/50.png"
+      "sprite": "http://localhost:1337/sprites/50.png",
+      "info": {
+        "name": "diglett"
+      }
     },
     {
       "id": 51,
-      "name": "dugtrio",
       "url": "http://localhost:1337/pokemon/51/",
-      "sprite": "http://localhost:1337/sprites/51.png"
+      "sprite": "http://localhost:1337/sprites/51.png",
+      "info": {
+        "name": "dugtrio"
+      }
     },
     {
       "id": 52,
-      "name": "meowth",
       "url": "http://localhost:1337/pokemon/52/",
-      "sprite": "http://localhost:1337/sprites/52.png"
+      "sprite": "http://localhost:1337/sprites/52.png",
+      "info": {
+        "name": "meowth"
+      }
     },
     {
       "id": 53,
-      "name": "persian",
       "url": "http://localhost:1337/pokemon/53/",
-      "sprite": "http://localhost:1337/sprites/53.png"
+      "sprite": "http://localhost:1337/sprites/53.png",
+      "info": {
+        "name": "persian"
+      }
     },
     {
       "id": 54,
-      "name": "psyduck",
       "url": "http://localhost:1337/pokemon/54/",
-      "sprite": "http://localhost:1337/sprites/54.png"
+      "sprite": "http://localhost:1337/sprites/54.png",
+      "info": {
+        "name": "psyduck"
+      }
     },
     {
       "id": 55,
-      "name": "golduck",
       "url": "http://localhost:1337/pokemon/55/",
-      "sprite": "http://localhost:1337/sprites/55.png"
+      "sprite": "http://localhost:1337/sprites/55.png",
+      "info": {
+        "name": "golduck"
+      }
     },
     {
       "id": 56,
-      "name": "mankey",
       "url": "http://localhost:1337/pokemon/56/",
-      "sprite": "http://localhost:1337/sprites/56.png"
+      "sprite": "http://localhost:1337/sprites/56.png",
+      "info": {
+        "name": "mankey"
+      }
     },
     {
       "id": 57,
-      "name": "primeape",
       "url": "http://localhost:1337/pokemon/57/",
-      "sprite": "http://localhost:1337/sprites/57.png"
+      "sprite": "http://localhost:1337/sprites/57.png",
+      "info": {
+        "name": "primeape"
+      }
     },
     {
       "id": 58,
-      "name": "growlithe",
       "url": "http://localhost:1337/pokemon/58/",
-      "sprite": "http://localhost:1337/sprites/58.png"
+      "sprite": "http://localhost:1337/sprites/58.png",
+      "info": {
+        "name": "growlithe"
+      }
     },
     {
       "id": 59,
-      "name": "arcanine",
       "url": "http://localhost:1337/pokemon/59/",
-      "sprite": "http://localhost:1337/sprites/59.png"
+      "sprite": "http://localhost:1337/sprites/59.png",
+      "info": {
+        "name": "arcanine"
+      }
     },
     {
       "id": 60,
-      "name": "poliwag",
       "url": "http://localhost:1337/pokemon/60/",
-      "sprite": "http://localhost:1337/sprites/60.png"
+      "sprite": "http://localhost:1337/sprites/60.png",
+      "info": {
+        "name": "poliwag"
+      }
     },
     {
       "id": 61,
-      "name": "poliwhirl",
       "url": "http://localhost:1337/pokemon/61/",
-      "sprite": "http://localhost:1337/sprites/61.png"
+      "sprite": "http://localhost:1337/sprites/61.png",
+      "info": {
+        "name": "poliwhirl"
+      }
     },
     {
       "id": 62,
-      "name": "poliwrath",
       "url": "http://localhost:1337/pokemon/62/",
-      "sprite": "http://localhost:1337/sprites/62.png"
+      "sprite": "http://localhost:1337/sprites/62.png",
+      "info": {
+        "name": "poliwrath"
+      }
     },
     {
       "id": 63,
-      "name": "abra",
       "url": "http://localhost:1337/pokemon/63/",
-      "sprite": "http://localhost:1337/sprites/63.png"
+      "sprite": "http://localhost:1337/sprites/63.png",
+      "info": {
+        "name": "abra"
+      }
     },
     {
       "id": 64,
-      "name": "kadabra",
       "url": "http://localhost:1337/pokemon/64/",
-      "sprite": "http://localhost:1337/sprites/64.png"
+      "sprite": "http://localhost:1337/sprites/64.png",
+      "info": {
+        "name": "kadabra"
+      }
     },
     {
       "id": 65,
-      "name": "alakazam",
       "url": "http://localhost:1337/pokemon/65/",
-      "sprite": "http://localhost:1337/sprites/65.png"
+      "sprite": "http://localhost:1337/sprites/65.png",
+      "info": {
+        "name": "alakazam"
+      }
     },
     {
       "id": 66,
-      "name": "machop",
       "url": "http://localhost:1337/pokemon/66/",
-      "sprite": "http://localhost:1337/sprites/66.png"
+      "sprite": "http://localhost:1337/sprites/66.png",
+      "info": {
+        "name": "machop"
+      }
     },
     {
       "id": 67,
-      "name": "machoke",
       "url": "http://localhost:1337/pokemon/67/",
-      "sprite": "http://localhost:1337/sprites/67.png"
+      "sprite": "http://localhost:1337/sprites/67.png",
+      "info": {
+        "name": "machoke"
+      }
     },
     {
       "id": 68,
-      "name": "machamp",
       "url": "http://localhost:1337/pokemon/68/",
-      "sprite": "http://localhost:1337/sprites/68.png"
+      "sprite": "http://localhost:1337/sprites/68.png",
+      "info": {
+        "name": "machamp"
+      }
     },
     {
       "id": 69,
-      "name": "bellsprout",
       "url": "http://localhost:1337/pokemon/69/",
-      "sprite": "http://localhost:1337/sprites/69.png"
+      "sprite": "http://localhost:1337/sprites/69.png",
+      "info": {
+        "name": "bellsprout"
+      }
     },
     {
       "id": 70,
-      "name": "weepinbell",
       "url": "http://localhost:1337/pokemon/70/",
-      "sprite": "http://localhost:1337/sprites/70.png"
+      "sprite": "http://localhost:1337/sprites/70.png",
+      "info": {
+        "name": "weepinbell"
+      }
     },
     {
       "id": 71,
-      "name": "victreebel",
       "url": "http://localhost:1337/pokemon/71/",
-      "sprite": "http://localhost:1337/sprites/71.png"
+      "sprite": "http://localhost:1337/sprites/71.png",
+      "info": {
+        "name": "victreebel"
+      }
     },
     {
       "id": 72,
-      "name": "tentacool",
       "url": "http://localhost:1337/pokemon/72/",
-      "sprite": "http://localhost:1337/sprites/72.png"
+      "sprite": "http://localhost:1337/sprites/72.png",
+      "info": {
+        "name": "tentacool"
+      }
     },
     {
       "id": 73,
-      "name": "tentacruel",
       "url": "http://localhost:1337/pokemon/73/",
-      "sprite": "http://localhost:1337/sprites/73.png"
+      "sprite": "http://localhost:1337/sprites/73.png",
+      "info": {
+        "name": "tentacruel"
+      }
     },
     {
       "id": 74,
-      "name": "geodude",
       "url": "http://localhost:1337/pokemon/74/",
-      "sprite": "http://localhost:1337/sprites/74.png"
+      "sprite": "http://localhost:1337/sprites/74.png",
+      "info": {
+        "name": "geodude"
+      }
     },
     {
       "id": 75,
-      "name": "graveler",
       "url": "http://localhost:1337/pokemon/75/",
-      "sprite": "http://localhost:1337/sprites/75.png"
+      "sprite": "http://localhost:1337/sprites/75.png",
+      "info": {
+        "name": "graveler"
+      }
     },
     {
       "id": 76,
-      "name": "golem",
       "url": "http://localhost:1337/pokemon/76/",
-      "sprite": "http://localhost:1337/sprites/76.png"
+      "sprite": "http://localhost:1337/sprites/76.png",
+      "info": {
+        "name": "golem"
+      }
     },
     {
       "id": 77,
-      "name": "ponyta",
       "url": "http://localhost:1337/pokemon/77/",
-      "sprite": "http://localhost:1337/sprites/77.png"
+      "sprite": "http://localhost:1337/sprites/77.png",
+      "info": {
+        "name": "ponyta"
+      }
     },
     {
       "id": 78,
-      "name": "rapidash",
       "url": "http://localhost:1337/pokemon/78/",
-      "sprite": "http://localhost:1337/sprites/78.png"
+      "sprite": "http://localhost:1337/sprites/78.png",
+      "info": {
+        "name": "rapidash"
+      }
     },
     {
       "id": 79,
-      "name": "slowpoke",
       "url": "http://localhost:1337/pokemon/79/",
-      "sprite": "http://localhost:1337/sprites/79.png"
+      "sprite": "http://localhost:1337/sprites/79.png",
+      "info": {
+        "name": "slowpoke"
+      }
     },
     {
       "id": 80,
-      "name": "slowbro",
       "url": "http://localhost:1337/pokemon/80/",
-      "sprite": "http://localhost:1337/sprites/80.png"
+      "sprite": "http://localhost:1337/sprites/80.png",
+      "info": {
+        "name": "slowbro"
+      }
     },
     {
       "id": 81,
-      "name": "magnemite",
       "url": "http://localhost:1337/pokemon/81/",
-      "sprite": "http://localhost:1337/sprites/81.png"
+      "sprite": "http://localhost:1337/sprites/81.png",
+      "info": {
+        "name": "magnemite"
+      }
     },
     {
       "id": 82,
-      "name": "magneton",
       "url": "http://localhost:1337/pokemon/82/",
-      "sprite": "http://localhost:1337/sprites/82.png"
+      "sprite": "http://localhost:1337/sprites/82.png",
+      "info": {
+        "name": "magneton"
+      }
     },
     {
       "id": 83,
-      "name": "farfetchd",
       "url": "http://localhost:1337/pokemon/83/",
-      "sprite": "http://localhost:1337/sprites/83.png"
+      "sprite": "http://localhost:1337/sprites/83.png",
+      "info": {
+        "name": "farfetchd"
+      }
     },
     {
       "id": 84,
-      "name": "doduo",
       "url": "http://localhost:1337/pokemon/84/",
-      "sprite": "http://localhost:1337/sprites/84.png"
+      "sprite": "http://localhost:1337/sprites/84.png",
+      "info": {
+        "name": "doduo"
+      }
     },
     {
       "id": 85,
-      "name": "dodrio",
       "url": "http://localhost:1337/pokemon/85/",
-      "sprite": "http://localhost:1337/sprites/85.png"
+      "sprite": "http://localhost:1337/sprites/85.png",
+      "info": {
+        "name": "dodrio"
+      }
     },
     {
       "id": 86,
-      "name": "seel",
       "url": "http://localhost:1337/pokemon/86/",
-      "sprite": "http://localhost:1337/sprites/86.png"
+      "sprite": "http://localhost:1337/sprites/86.png",
+      "info": {
+        "name": "seel"
+      }
     },
     {
       "id": 87,
-      "name": "dewgong",
       "url": "http://localhost:1337/pokemon/87/",
-      "sprite": "http://localhost:1337/sprites/87.png"
+      "sprite": "http://localhost:1337/sprites/87.png",
+      "info": {
+        "name": "dewgong"
+      }
     },
     {
       "id": 88,
-      "name": "grimer",
       "url": "http://localhost:1337/pokemon/88/",
-      "sprite": "http://localhost:1337/sprites/88.png"
+      "sprite": "http://localhost:1337/sprites/88.png",
+      "info": {
+        "name": "grimer"
+      }
     },
     {
       "id": 89,
-      "name": "muk",
       "url": "http://localhost:1337/pokemon/89/",
-      "sprite": "http://localhost:1337/sprites/89.png"
+      "sprite": "http://localhost:1337/sprites/89.png",
+      "info": {
+        "name": "muk"
+      }
     },
     {
       "id": 90,
-      "name": "shellder",
       "url": "http://localhost:1337/pokemon/90/",
-      "sprite": "http://localhost:1337/sprites/90.png"
+      "sprite": "http://localhost:1337/sprites/90.png",
+      "info": {
+        "name": "shellder"
+      }
     },
     {
       "id": 91,
-      "name": "cloyster",
       "url": "http://localhost:1337/pokemon/91/",
-      "sprite": "http://localhost:1337/sprites/91.png"
+      "sprite": "http://localhost:1337/sprites/91.png",
+      "info": {
+        "name": "cloyster"
+      }
     },
     {
       "id": 92,
-      "name": "gastly",
       "url": "http://localhost:1337/pokemon/92/",
-      "sprite": "http://localhost:1337/sprites/92.png"
+      "sprite": "http://localhost:1337/sprites/92.png",
+      "info": {
+        "name": "gastly"
+      }
     },
     {
       "id": 93,
-      "name": "haunter",
       "url": "http://localhost:1337/pokemon/93/",
-      "sprite": "http://localhost:1337/sprites/93.png"
+      "sprite": "http://localhost:1337/sprites/93.png",
+      "info": {
+        "name": "haunter"
+      }
     },
     {
       "id": 94,
-      "name": "gengar",
       "url": "http://localhost:1337/pokemon/94/",
-      "sprite": "http://localhost:1337/sprites/94.png"
+      "sprite": "http://localhost:1337/sprites/94.png",
+      "info": {
+        "name": "gengar"
+      }
     },
     {
       "id": 95,
-      "name": "onix",
       "url": "http://localhost:1337/pokemon/95/",
-      "sprite": "http://localhost:1337/sprites/95.png"
+      "sprite": "http://localhost:1337/sprites/95.png",
+      "info": {
+        "name": "onix"
+      }
     },
     {
       "id": 96,
-      "name": "drowzee",
       "url": "http://localhost:1337/pokemon/96/",
-      "sprite": "http://localhost:1337/sprites/96.png"
+      "sprite": "http://localhost:1337/sprites/96.png",
+      "info": {
+        "name": "drowzee"
+      }
     },
     {
       "id": 97,
-      "name": "hypno",
       "url": "http://localhost:1337/pokemon/97/",
-      "sprite": "http://localhost:1337/sprites/97.png"
+      "sprite": "http://localhost:1337/sprites/97.png",
+      "info": {
+        "name": "hypno"
+      }
     },
     {
       "id": 98,
-      "name": "krabby",
       "url": "http://localhost:1337/pokemon/98/",
-      "sprite": "http://localhost:1337/sprites/98.png"
+      "sprite": "http://localhost:1337/sprites/98.png",
+      "info": {
+        "name": "krabby"
+      }
     },
     {
       "id": 99,
-      "name": "kingler",
       "url": "http://localhost:1337/pokemon/99/",
-      "sprite": "http://localhost:1337/sprites/99.png"
+      "sprite": "http://localhost:1337/sprites/99.png",
+      "info": {
+        "name": "kingler"
+      }
     },
     {
       "id": 100,
-      "name": "voltorb",
       "url": "http://localhost:1337/pokemon/100/",
-      "sprite": "http://localhost:1337/sprites/100.png"
+      "sprite": "http://localhost:1337/sprites/100.png",
+      "info": {
+        "name": "voltorb"
+      }
     },
     {
       "id": 101,
-      "name": "electrode",
       "url": "http://localhost:1337/pokemon/101/",
-      "sprite": "http://localhost:1337/sprites/101.png"
+      "sprite": "http://localhost:1337/sprites/101.png",
+      "info": {
+        "name": "electrode"
+      }
     },
     {
       "id": 102,
-      "name": "exeggcute",
       "url": "http://localhost:1337/pokemon/102/",
-      "sprite": "http://localhost:1337/sprites/102.png"
+      "sprite": "http://localhost:1337/sprites/102.png",
+      "info": {
+        "name": "exeggcute"
+      }
     },
     {
       "id": 103,
-      "name": "exeggutor",
       "url": "http://localhost:1337/pokemon/103/",
-      "sprite": "http://localhost:1337/sprites/103.png"
+      "sprite": "http://localhost:1337/sprites/103.png",
+      "info": {
+        "name": "exeggutor"
+      }
     },
     {
       "id": 104,
-      "name": "cubone",
       "url": "http://localhost:1337/pokemon/104/",
-      "sprite": "http://localhost:1337/sprites/104.png"
+      "sprite": "http://localhost:1337/sprites/104.png",
+      "info": {
+        "name": "cubone"
+      }
     },
     {
       "id": 105,
-      "name": "marowak",
       "url": "http://localhost:1337/pokemon/105/",
-      "sprite": "http://localhost:1337/sprites/105.png"
+      "sprite": "http://localhost:1337/sprites/105.png",
+      "info": {
+        "name": "marowak"
+      }
     },
     {
       "id": 106,
-      "name": "hitmonlee",
       "url": "http://localhost:1337/pokemon/106/",
-      "sprite": "http://localhost:1337/sprites/106.png"
+      "sprite": "http://localhost:1337/sprites/106.png",
+      "info": {
+        "name": "hitmonlee"
+      }
     },
     {
       "id": 107,
-      "name": "hitmonchan",
       "url": "http://localhost:1337/pokemon/107/",
-      "sprite": "http://localhost:1337/sprites/107.png"
+      "sprite": "http://localhost:1337/sprites/107.png",
+      "info": {
+        "name": "hitmonchan"
+      }
     },
     {
       "id": 108,
-      "name": "lickitung",
       "url": "http://localhost:1337/pokemon/108/",
-      "sprite": "http://localhost:1337/sprites/108.png"
+      "sprite": "http://localhost:1337/sprites/108.png",
+      "info": {
+        "name": "lickitung"
+      }
     },
     {
       "id": 109,
-      "name": "koffing",
       "url": "http://localhost:1337/pokemon/109/",
-      "sprite": "http://localhost:1337/sprites/109.png"
+      "sprite": "http://localhost:1337/sprites/109.png",
+      "info": {
+        "name": "koffing"
+      }
     },
     {
       "id": 110,
-      "name": "weezing",
       "url": "http://localhost:1337/pokemon/110/",
-      "sprite": "http://localhost:1337/sprites/110.png"
+      "sprite": "http://localhost:1337/sprites/110.png",
+      "info": {
+        "name": "weezing"
+      }
     },
     {
       "id": 111,
-      "name": "rhyhorn",
       "url": "http://localhost:1337/pokemon/111/",
-      "sprite": "http://localhost:1337/sprites/111.png"
+      "sprite": "http://localhost:1337/sprites/111.png",
+      "info": {
+        "name": "rhyhorn"
+      }
     },
     {
       "id": 112,
-      "name": "rhydon",
       "url": "http://localhost:1337/pokemon/112/",
-      "sprite": "http://localhost:1337/sprites/112.png"
+      "sprite": "http://localhost:1337/sprites/112.png",
+      "info": {
+        "name": "rhydon"
+      }
     },
     {
       "id": 113,
-      "name": "chansey",
       "url": "http://localhost:1337/pokemon/113/",
-      "sprite": "http://localhost:1337/sprites/113.png"
+      "sprite": "http://localhost:1337/sprites/113.png",
+      "info": {
+        "name": "chansey"
+      }
     },
     {
       "id": 114,
-      "name": "tangela",
       "url": "http://localhost:1337/pokemon/114/",
-      "sprite": "http://localhost:1337/sprites/114.png"
+      "sprite": "http://localhost:1337/sprites/114.png",
+      "info": {
+        "name": "tangela"
+      }
     },
     {
       "id": 115,
-      "name": "kangaskhan",
       "url": "http://localhost:1337/pokemon/115/",
-      "sprite": "http://localhost:1337/sprites/115.png"
+      "sprite": "http://localhost:1337/sprites/115.png",
+      "info": {
+        "name": "kangaskhan"
+      }
     },
     {
       "id": 116,
-      "name": "horsea",
       "url": "http://localhost:1337/pokemon/116/",
-      "sprite": "http://localhost:1337/sprites/116.png"
+      "sprite": "http://localhost:1337/sprites/116.png",
+      "info": {
+        "name": "horsea"
+      }
     },
     {
       "id": 117,
-      "name": "seadra",
       "url": "http://localhost:1337/pokemon/117/",
-      "sprite": "http://localhost:1337/sprites/117.png"
+      "sprite": "http://localhost:1337/sprites/117.png",
+      "info": {
+        "name": "seadra"
+      }
     },
     {
       "id": 118,
-      "name": "goldeen",
       "url": "http://localhost:1337/pokemon/118/",
-      "sprite": "http://localhost:1337/sprites/118.png"
+      "sprite": "http://localhost:1337/sprites/118.png",
+      "info": {
+        "name": "goldeen"
+      }
     },
     {
       "id": 119,
-      "name": "seaking",
       "url": "http://localhost:1337/pokemon/119/",
-      "sprite": "http://localhost:1337/sprites/119.png"
+      "sprite": "http://localhost:1337/sprites/119.png",
+      "info": {
+        "name": "seaking"
+      }
     },
     {
       "id": 120,
-      "name": "staryu",
       "url": "http://localhost:1337/pokemon/120/",
-      "sprite": "http://localhost:1337/sprites/120.png"
+      "sprite": "http://localhost:1337/sprites/120.png",
+      "info": {
+        "name": "staryu"
+      }
     },
     {
       "id": 121,
-      "name": "starmie",
       "url": "http://localhost:1337/pokemon/121/",
-      "sprite": "http://localhost:1337/sprites/121.png"
+      "sprite": "http://localhost:1337/sprites/121.png",
+      "info": {
+        "name": "starmie"
+      }
     },
     {
       "id": 122,
-      "name": "mr-mime",
       "url": "http://localhost:1337/pokemon/122/",
-      "sprite": "http://localhost:1337/sprites/122.png"
+      "sprite": "http://localhost:1337/sprites/122.png",
+      "info": {
+        "name": "mr-mime"
+      }
     },
     {
       "id": 123,
-      "name": "scyther",
       "url": "http://localhost:1337/pokemon/123/",
-      "sprite": "http://localhost:1337/sprites/123.png"
+      "sprite": "http://localhost:1337/sprites/123.png",
+      "info": {
+        "name": "scyther"
+      }
     },
     {
       "id": 124,
-      "name": "jynx",
       "url": "http://localhost:1337/pokemon/124/",
-      "sprite": "http://localhost:1337/sprites/124.png"
+      "sprite": "http://localhost:1337/sprites/124.png",
+      "info": {
+        "name": "jynx"
+      }
     },
     {
       "id": 125,
-      "name": "electabuzz",
       "url": "http://localhost:1337/pokemon/125/",
-      "sprite": "http://localhost:1337/sprites/125.png"
+      "sprite": "http://localhost:1337/sprites/125.png",
+      "info": {
+        "name": "electabuzz"
+      }
     },
     {
       "id": 126,
-      "name": "magmar",
       "url": "http://localhost:1337/pokemon/126/",
-      "sprite": "http://localhost:1337/sprites/126.png"
+      "sprite": "http://localhost:1337/sprites/126.png",
+      "info": {
+        "name": "magmar"
+      }
     },
     {
       "id": 127,
-      "name": "pinsir",
       "url": "http://localhost:1337/pokemon/127/",
-      "sprite": "http://localhost:1337/sprites/127.png"
+      "sprite": "http://localhost:1337/sprites/127.png",
+      "info": {
+        "name": "pinsir"
+      }
     },
     {
       "id": 128,
-      "name": "tauros",
       "url": "http://localhost:1337/pokemon/128/",
-      "sprite": "http://localhost:1337/sprites/128.png"
+      "sprite": "http://localhost:1337/sprites/128.png",
+      "info": {
+        "name": "tauros"
+      }
     },
     {
       "id": 129,
-      "name": "magikarp",
       "url": "http://localhost:1337/pokemon/129/",
-      "sprite": "http://localhost:1337/sprites/129.png"
+      "sprite": "http://localhost:1337/sprites/129.png",
+      "info": {
+        "name": "magikarp"
+      }
     },
     {
       "id": 130,
-      "name": "gyarados",
       "url": "http://localhost:1337/pokemon/130/",
-      "sprite": "http://localhost:1337/sprites/130.png"
+      "sprite": "http://localhost:1337/sprites/130.png",
+      "info": {
+        "name": "gyarados"
+      }
     },
     {
       "id": 131,
-      "name": "lapras",
       "url": "http://localhost:1337/pokemon/131/",
-      "sprite": "http://localhost:1337/sprites/131.png"
+      "sprite": "http://localhost:1337/sprites/131.png",
+      "info": {
+        "name": "lapras"
+      }
     },
     {
       "id": 132,
-      "name": "ditto",
       "url": "http://localhost:1337/pokemon/132/",
-      "sprite": "http://localhost:1337/sprites/132.png"
+      "sprite": "http://localhost:1337/sprites/132.png",
+      "info": {
+        "name": "ditto"
+      }
     },
     {
       "id": 133,
-      "name": "eevee",
       "url": "http://localhost:1337/pokemon/133/",
-      "sprite": "http://localhost:1337/sprites/133.png"
+      "sprite": "http://localhost:1337/sprites/133.png",
+      "info": {
+        "name": "eevee"
+      }
     },
     {
       "id": 134,
-      "name": "vaporeon",
       "url": "http://localhost:1337/pokemon/134/",
-      "sprite": "http://localhost:1337/sprites/134.png"
+      "sprite": "http://localhost:1337/sprites/134.png",
+      "info": {
+        "name": "vaporeon"
+      }
     },
     {
       "id": 135,
-      "name": "jolteon",
       "url": "http://localhost:1337/pokemon/135/",
-      "sprite": "http://localhost:1337/sprites/135.png"
+      "sprite": "http://localhost:1337/sprites/135.png",
+      "info": {
+        "name": "jolteon"
+      }
     },
     {
       "id": 136,
-      "name": "flareon",
       "url": "http://localhost:1337/pokemon/136/",
-      "sprite": "http://localhost:1337/sprites/136.png"
+      "sprite": "http://localhost:1337/sprites/136.png",
+      "info": {
+        "name": "flareon"
+      }
     },
     {
       "id": 137,
-      "name": "porygon",
       "url": "http://localhost:1337/pokemon/137/",
-      "sprite": "http://localhost:1337/sprites/137.png"
+      "sprite": "http://localhost:1337/sprites/137.png",
+      "info": {
+        "name": "porygon"
+      }
     },
     {
       "id": 138,
-      "name": "omanyte",
       "url": "http://localhost:1337/pokemon/138/",
-      "sprite": "http://localhost:1337/sprites/138.png"
+      "sprite": "http://localhost:1337/sprites/138.png",
+      "info": {
+        "name": "omanyte"
+      }
     },
     {
       "id": 139,
-      "name": "omastar",
       "url": "http://localhost:1337/pokemon/139/",
-      "sprite": "http://localhost:1337/sprites/139.png"
+      "sprite": "http://localhost:1337/sprites/139.png",
+      "info": {
+        "name": "omastar"
+      }
     },
     {
       "id": 140,
-      "name": "kabuto",
       "url": "http://localhost:1337/pokemon/140/",
-      "sprite": "http://localhost:1337/sprites/140.png"
+      "sprite": "http://localhost:1337/sprites/140.png",
+      "info": {
+        "name": "kabuto"
+      }
     },
     {
       "id": 141,
-      "name": "kabutops",
       "url": "http://localhost:1337/pokemon/141/",
-      "sprite": "http://localhost:1337/sprites/141.png"
+      "sprite": "http://localhost:1337/sprites/141.png",
+      "info": {
+        "name": "kabutops"
+      }
     },
     {
       "id": 142,
-      "name": "aerodactyl",
       "url": "http://localhost:1337/pokemon/142/",
-      "sprite": "http://localhost:1337/sprites/142.png"
+      "sprite": "http://localhost:1337/sprites/142.png",
+      "info": {
+        "name": "aerodactyl"
+      }
     },
     {
       "id": 143,
-      "name": "snorlax",
       "url": "http://localhost:1337/pokemon/143/",
-      "sprite": "http://localhost:1337/sprites/143.png"
+      "sprite": "http://localhost:1337/sprites/143.png",
+      "info": {
+        "name": "snorlax"
+      }
     },
     {
       "id": 144,
-      "name": "articuno",
       "url": "http://localhost:1337/pokemon/144/",
-      "sprite": "http://localhost:1337/sprites/144.png"
+      "sprite": "http://localhost:1337/sprites/144.png",
+      "info": {
+        "name": "articuno"
+      }
     },
     {
       "id": 145,
-      "name": "zapdos",
       "url": "http://localhost:1337/pokemon/145/",
-      "sprite": "http://localhost:1337/sprites/145.png"
+      "sprite": "http://localhost:1337/sprites/145.png",
+      "info": {
+        "name": "zapdos"
+      }
     },
     {
       "id": 146,
-      "name": "moltres",
       "url": "http://localhost:1337/pokemon/146/",
-      "sprite": "http://localhost:1337/sprites/146.png"
+      "sprite": "http://localhost:1337/sprites/146.png",
+      "info": {
+        "name": "moltres"
+      }
     },
     {
       "id": 147,
-      "name": "dratini",
       "url": "http://localhost:1337/pokemon/147/",
-      "sprite": "http://localhost:1337/sprites/147.png"
+      "sprite": "http://localhost:1337/sprites/147.png",
+      "info": {
+        "name": "dratini"
+      }
     },
     {
       "id": 148,
-      "name": "dragonair",
       "url": "http://localhost:1337/pokemon/148/",
-      "sprite": "http://localhost:1337/sprites/148.png"
+      "sprite": "http://localhost:1337/sprites/148.png",
+      "info": {
+        "name": "dragonair"
+      }
     },
     {
       "id": 149,
-      "name": "dragonite",
       "url": "http://localhost:1337/pokemon/149/",
-      "sprite": "http://localhost:1337/sprites/149.png"
+      "sprite": "http://localhost:1337/sprites/149.png",
+      "info": {
+        "name": "dragonite"
+      }
     },
     {
       "id": 150,
-      "name": "mewtwo",
       "url": "http://localhost:1337/pokemon/150/",
-      "sprite": "http://localhost:1337/sprites/150.png"
+      "sprite": "http://localhost:1337/sprites/150.png",
+      "info": {
+        "name": "mewtwo"
+      }
     },
     {
       "id": 151,
-      "name": "mew",
       "url": "http://localhost:1337/pokemon/151/",
-      "sprite": "http://localhost:1337/sprites/151.png"
+      "sprite": "http://localhost:1337/sprites/151.png",
+      "info": {
+        "name": "mew"
+      }
     }
   ]
 }
