@@ -9,6 +9,18 @@ const app = express()
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
+
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*')
+    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization')
+    if (req.method === 'OPTIONS') {
+        res.header('Access-Control-Allow-Methods', 'PUT, POST, PATCH, DELETE, GET')
+        return res.status(200)
+    }
+    next()
+})
+
+
 app.get('/pokemon', (req, res, next) => {
     pokemon = data.pokemon.map(({ id, url, sprite }) => { return { id, url, sprite } })
     if (pokemon) return res.json(pokemon)
@@ -22,16 +34,6 @@ app.get('/pokemon/:id', (req, res, next) => {
 })
 
 app.use('/sprites', express.static('sprites'))
-
-app.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', '*')
-    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization')
-    if (req.method === 'OPTIONS') {
-        res.header('Access-Control-Allow-Methods', 'PUT, POST, PATCH, DELETE, GET')
-        return res.status(200)
-    }
-    next()
-})
 
 app.use((req, res, next) => {
     const error = new Error('Not found')
