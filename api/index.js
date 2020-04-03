@@ -31,5 +31,5 @@ app.get('/pokemon/:id', (req, res, next) => {
 app.use('/sprites', express.static('sprites'))
 
 app.listen(port, () => {
-    console.log('listening')
+    console.log(`Listening on port ${port}`);
 })
