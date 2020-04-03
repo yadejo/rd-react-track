@@ -31,8 +31,6 @@ app.use((error, req, res, next) => {
     })
 })
 
-
-
 app.get('/pokemon', (req, res, next) => {
     pokemon = data.pokemon.map(({ id, url, sprite }) => { return { id, url, sprite } })
     if (pokemon) return res.json(pokemon)
