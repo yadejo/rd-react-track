@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Sprite from './components/sprite';
+import Sprite from './components/Sprite';
 
 function App() {
 
