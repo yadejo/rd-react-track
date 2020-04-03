@@ -1,0 +1,9 @@
+.PokemonList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.PokemonThumbnail {
+    cursor: pointer;
+}
