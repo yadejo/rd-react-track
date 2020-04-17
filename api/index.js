@@ -1,6 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
-const data = require('./pokemon.json')
+const pokemonRoutes = require('./routes/pokemon')
+const inventoryRoutes = require('./routes/inventory')
 
 const port = 1337
 
@@ -9,6 +10,8 @@ const app = express()
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
+app.use('/pokemon', pokemonRoutes)
+app.use('/inventory', inventoryRoutes)
 
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*')
@@ -18,19 +21,6 @@ app.use((req, res, next) => {
         return res.status(200)
     }
     next()
-})
-
-
-app.get('/pokemon', (req, res, next) => {
-    pokemon = data.pokemon.map(({ id, url, sprite }) => { return { id, url, sprite } })
-    if (pokemon) return res.json(pokemon)
-    return res.status(404).json({error:{message:'Not found'}})
-})
-
-app.get('/pokemon/:id', (req, res, next) => {
-    pokemon = data.pokemon.find(p => p.id == req.params.id)
-    if (pokemon) return res.json(pokemon)
-    return res.status(404).json({error:{message:'Not found'}})
 })
 
 app.use('/sprites', express.static('sprites'))
